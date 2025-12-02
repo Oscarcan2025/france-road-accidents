@@ -34,9 +34,13 @@ recommendations to improve road-safety from findings.
 
 ## Key Findings & Results
 - Temporal patterns show that **severe injuries** are most likely during the **early morning hours** and on **weekends**.
+  
 - The strongest severity risk group is **85 and older**, with more than three times the odds of severe accidents compared to children.
+  
 - Accident density is highest in **urban centers**, but the **probability of severe injury** is greatest in **rural regions**.
+  
 - Severity increases with speed limits: **high-speed roads** produce the **highest share of severe and fatal cases**.
+  
 - Bikes and e-bike riders have **27% severe injuries**, compared to around **18% for other vehicles**.
 
 Overall, our findings revealed that **injury severity is NOT random** but associated with identifiable patterns and **NOT influenced by one factor alone** but **multiple factors combined** together.
