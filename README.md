@@ -32,50 +32,93 @@ improved) visualization.
 - Summarize findings/results and share conclusions drawn on possible 
 recommendations to improve road-safety from findings.
 
-*(Note: For all the details about the project please read the **Project Report - Road accidents in France** in the Project Report folder)*
+## Key Findings & Results
+- Temporal patterns show that **severe injuries** are most likely during the **early morning hours** and on **weekends**.
+- The strongest severity risk group is **85 and older**, with more than three times the odds of severe accidents compared to children.
+- Accident density is highest in **urban centers**, but the **probability of severe injury** is greatest in **rural regions**.
+- Severity increases with speed limits: **high-speed roads** produce the **highest share of severe and fatal cases**.
+- Bikes and e-bike riders have **27% severe injuries**, compared to around **18% for other vehicles**.
 
+Overall, our findings revealed that **injury severity is NOT random** but associated with identifiable patterns and **NOT influenced by one factor alone** but **multiple factors combined** together.
 ## Tools & Statistics Used
 
-- Python (Pandas, Seaborn, Matplotlib) and Google Colab for code execution
+- Python (Pandas, Seaborn, Matplotlib) and Google Colab for code execution.
 
-- Power BI (interactive dashboards)
+- Power BI (interactive dashboards).
 
-- Chi-square tests, Cramer’s V, correlation analysis
+- Chi-square tests, Cramer’s V, correlation analysis.
 
-## Google Colab Code folder: What each file represents
+## What Each Folder Contains
 
-- Data _Road_Accidents_France_Audit_DA - **Data audit of the CSV files downloaded from the Ministère de l’Intérieur website**
-- 00_road_accidents_france_data_exploration_and_file_merge.ipynb — **Exploratory analysis and merging of datasets.**
-- 01_road_accidents_france_data_preprocessing_and_feature_engineering.ipynb — **Feature engineering and variable transformation for modeling.**
-- 02_road_accidents_france_data_visualization.ipynb — **Data visualization and exploratory statistics.**
-- 03_road_accidents_france_PowerBI_preprocessing.ipynb — **Preparing data exports for Power BI dashboards.**
+### Project Report folder
+- *Project Report - Road accidents in France.pdf*
 
+  └──> A full report detailing every step of our project (e.g, data cleaning, dashboard design, statistical analysis).
+### Google Colab folder
+- *Data _Road_Accidents_France_Audit_DA* 
 
+  └──> Data audit of the CSV files downloaded from the Ministère de l’Intérieur website.
+- *00_road_accidents_france_data_exploration_and_file_merge.ipynb*
+  
+  └──> Exploratory analysis and merging of datasets.
+- *01_road_accidents_france_data_preprocessing_and_feature_engineering.ipynb* 
 
-## Dashboard folder & Screenshots folder: What each file represents
+  └──> Feature engineering and variable transformation for modeling.
+- *02_road_accidents_france_data_visualization.ipynb* 
 
-### Dashboard folder
+  └──> Data visualization and exploratory statistics.
+- *03_road_accidents_france_PowerBI_preprocessing.ipynb* 
 
-- 04_road_accidents_france_PowerBI_dashboard.pbix - **The handed-in dashboard for the capstone project**
-- 04_road_accidents_france_PowerBI_dashboard_PRESENTATION.pbix - **The dashboard used for our presentation, the organization and interactions being the main differences**
+  └──> Preparing data exports for Power BI dashboards.
+
+### Dashboard folder 
+- *04_road_accidents_france_PowerBI_dashboard.pbix*
+
+  └──> The handed-in dashboard for the capstone project.
+- *04_road_accidents_france_PowerBI_dashboard_PRESENTATION.pbix*
+
+  └──> The dashboard used for our presentation, the organization and interactions being the main differences.
 
 ### Screenshot folder
+- Each page created in our PowerBI dashboard (order from start to end):
 
-Screenshots of each page created in our PowerBI dashboard + the model view that shows how each table has been connected with one another, examples below:
-### Model View 
+  └──> 1. *Dashboard - Executive Summary.png*
+  
+  └──> 2. *Dashboard - Temporal Analysis.png*
+  
+  └──> 3. *Dashboard - User Profile Analysis.png*
+  
+  └──> 4. *Dashboard - Location Analysis.png*
+  
+  └──> 5. *Dashboard - Speed Limit Analysis.png*
+  
+  └──> 6. *Dashboard - Bike and Severity.png*
+  
+  └──> 7. *Dashboard - Conclusion.png*
+
+- Model view highlighting the relationships between all tables:
+
+  └──> 1. *Dashboard - Model View.png*
+
+### Examples
+#### Example 1: *00_road_accidents_france_data_exploration_and_file_merge.ipynb Sample*
+<img width="1023" height="698" alt="image" src="https://github.com/user-attachments/assets/0394b5d5-c625-4727-8577-dd3a9c1b992c" />
+
+#### Example 2: *Dashboard - Model View* 
 <img width="1802" height="1167" alt="Dashboard - Model View" src="https://github.com/user-attachments/assets/7abdfc5b-d29e-4c8b-b225-6824f0d93ee2" />
 
-*Note: Shows the User table used as our facts table and the other tables being used as our dimensions table*
-
-### Speed Limit Analysis Page
-<img width="1921" height="1081" alt="Dashboard - Speed Limit Analysis" src="https://github.com/user-attachments/assets/98b1752e-0d11-4e8f-b27d-4c9eb1c0635c" />
-
-*Note: Same format for all pages for consitency with our sliders on the left-hand side and tables following our narrative on the right hand side*
-### User Profile Analysis Page (with slider "Department" being used for example)
-<img width="1921" height="1081" alt="image" src="https://github.com/user-attachments/assets/8af05e57-554c-4258-83e5-56ef4a5d7821" />
-
+#### Example 3: *Dashboard - Speed Limit Analysis* 
+<img width="1921" height="1080" alt="Dashboard - Speed Limit Analysis" src="https://github.com/user-attachments/assets/98b1752e-0d11-4e8f-b27d-4c9eb1c0635c" />
 
 ## Team
 
 Project completed as part of the DataScientest Data Analyst Bootcamp (École des Mines Paris – PSL).
-Team members: Oscar CANIVET, Naomi Thandi KLINGBEIL, Markus NORDMANN 
+
+
+Team members: 
+
+- Oscar CANIVET, 
+
+- Naomi Thandi KLINGBEIL, 
+
+- Markus NORDMANN 
