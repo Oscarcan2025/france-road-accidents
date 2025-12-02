@@ -2,12 +2,13 @@
 
 ## Project Overview
 
-This project explores road accident data in France between 2019 and 2023, aiming to identify the key factors influencing accident severity and to uncover demographic, temporal, and environmental trends.
+This project explores road accident data in France between 2019 and 2023 (this represents 270,000 road accidents in France or 600,000 people involved) aiming to identify the key factors influencing accident severity and to uncover demographic, temporal, and environmental trends.
 It combines data cleaning, statistical testing, and interactive visualization using Python and Power BI. You will find in this github the official files as well as screenshots of the dashboard and google collab codes.
 
-Data from: Open Data Sécurité Routière — Ministère de l’Intérieur (France)
+Data from: Open Data Sécurité Routière — Ministère de l’Intérieur (France) --->
+https://tinyurl.com/39cu4527
 
-## Objectives 
+## Objectives of the Project
 
 - Analyze and understand the different factors that influence road accidents 
 in France (2019-2023). 
@@ -31,49 +32,45 @@ improved) visualization.
 - Summarize findings/results and share conclusions drawn on possible 
 recommendations to improve road-safety from findings.
 
+*(Note: For all the details about the project please read the **Project Report - Road accidents in France** in the Project Report folder)*
 
 ## Tools & Statistics Used
 
-- Python (Pandas, Seaborn, Matplotlib, SciPy)
+- Python (Pandas, Seaborn, Matplotlib) and Google Colab for code execution
 
 - Power BI (interactive dashboards)
 
-- Google Colab for code execution
-
 - Chi-square tests, Cramer’s V, correlation analysis
 
+## Google Colab Code folder: What each file represents
 
-## Google Colab: What each file represents
+- Data _Road_Accidents_France_Audit_DA - **Data audit of the CSV files downloaded from the Ministère de l’Intérieur website**
+- 00_road_accidents_france_data_exploration_and_file_merge.ipynb — **Exploratory analysis and merging of datasets.**
+- 01_road_accidents_france_data_preprocessing_and_feature_engineering.ipynb — **Feature engineering and variable transformation for modeling.**
+- 02_road_accidents_france_data_visualization.ipynb — **Data visualization and exploratory statistics.**
+- 03_road_accidents_france_PowerBI_preprocessing.ipynb — **Preparing data exports for Power BI dashboards.**
 
-- Data _Road_Accidents_France_Audit_DA - Data audit of the CSV files downloaded from the Ministère de l’Intérieur website
-- 00_road_accidents_france_data_exploration_and_file_merge.ipynb — Exploratory analysis and merging of datasets.
-- 01_road_accidents_france_data_preprocessing_and_feature_engineering.ipynb — Feature engineering and variable transformation for modeling.
-- 02_road_accidents_france_data_visualization.ipynb — Data visualization and exploratory statistics.
-- 03_road_accidents_france_PowerBI_preprocessing.ipynb — Preparing data exports for Power BI dashboards.
 
-## Data Cleaning & Preparation
-- Merged 4 datasets (users, vehicles, places, characteristics).
 
-- Standardized and converted types (e.g. int64, category, datetime64).
+## Dashboard folder & Screenshots folder: What each file represents
 
-- Created grouped variables such as:
+### Dashboard folder
 
-  - speed_range: (0–30, 31–50, 51–70, 71–90, 91–110, 110+)
+- 04_road_accidents_france_PowerBI_dashboard.pbix - **The handed-in dashboard for the capstone project**
+- 04_road_accidents_france_PowerBI_dashboard_PRESENTATION.pbix - **The dashboard used for our presentation, the organization and interactions being the main differences**
 
-  - age_group: (0–13, 14–17, 18–24, 25–34, …, 85+)
+### Screenshot folder
 
-- Handled missing data (NaN, -1 placeholders) and removed outliers.
-
-- (Note: For more information for each steps please read the "Project Report - Road accidents in France" that provides all the details)
-
-## Dashboard Example
-
+Screenshots of each page created in our PowerBI dashboard + the model view that shows how each table has been connected with one another, examples below:
 ### Model View 
 <img width="1802" height="1167" alt="Dashboard - Model View" src="https://github.com/user-attachments/assets/7abdfc5b-d29e-4c8b-b225-6824f0d93ee2" />
+
+*Note: Shows the User table used as our facts table and the other tables being used as our dimensions table*
 
 ### Speed Limit Analysis Page
 <img width="1921" height="1081" alt="Dashboard - Speed Limit Analysis" src="https://github.com/user-attachments/assets/98b1752e-0d11-4e8f-b27d-4c9eb1c0635c" />
 
+*Note: Same format for all pages for consitency with our sliders on the left-hand side and tables following our narrative on the right hand side*
 ### User Profile Analysis Page (with slider "Department" being used for example)
 <img width="1921" height="1081" alt="image" src="https://github.com/user-attachments/assets/8af05e57-554c-4258-83e5-56ef4a5d7821" />
 
